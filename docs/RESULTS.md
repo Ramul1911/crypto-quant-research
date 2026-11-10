@@ -6,6 +6,7 @@ Author's own calculation from the bots' trade databases. The databases themselve
 
 - Round trips are built from consecutive open and close fills at the real fill prices.
 - Fee 4 bps per side. Slippage is already inside real fill prices. Funding is not included.
+- No leverage is used in trading: position notional is about 1x of the account balance (position size 95-100%). The exchange-side leverage setting only defines the maximum and the liquidation distance, it does not change the notional.
 - Position size is treated as 100% of the notional, so the numbers show the strategy path, not the account balance. Account balances are not usable because of deposits and withdrawals.
 - A position that is still open at the end of the period is not counted.
 
