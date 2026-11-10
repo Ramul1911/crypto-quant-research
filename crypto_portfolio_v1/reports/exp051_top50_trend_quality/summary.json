@@ -1,0 +1,44 @@
+{
+  "experiment_id": "EXP-051",
+  "window": {
+    "start": "2025-08-10 00:00:00",
+    "end": "2026-08-09 23:59:59"
+  },
+  "eligible_count": 37,
+  "portfolio_results": {
+    "all_equal_risk": {
+      "return_pct": -23.715301670244358,
+      "mdd_pct": -25.042773711974164,
+      "profit_factor": 0.4689448910817353,
+      "turnover": 54.21851851628493
+    },
+    "high_trend_quality": {
+      "return_pct": -23.995589318685195,
+      "mdd_pct": -25.153224847340038,
+      "profit_factor": 0.4558616884724599,
+      "turnover": 51.43903057943935
+    },
+    "low_trend_quality": {
+      "return_pct": -21.77185777554217,
+      "mdd_pct": -25.04122028254362,
+      "profit_factor": 0.8538709921201626,
+      "turnover": 208.33207816021556
+    }
+  },
+  "daily_rank_ic": {
+    "count": 365,
+    "mean": 0.010987058320278562,
+    "median": 0.0028449502133712657,
+    "positive_share": 0.5041095890410959
+  },
+  "symbol_quality_return_spearman": 0.10881934566145092,
+  "hypothesis_checks": {
+    "high_return_beats_all": false,
+    "high_return_beats_low": false,
+    "high_profit_factor_above_1": false,
+    "high_mdd_within_5pp_of_low": true,
+    "mean_daily_rank_ic_above_0_05": false,
+    "symbol_quality_return_spearman_above_0_20": false,
+    "supported": false
+  }
+}

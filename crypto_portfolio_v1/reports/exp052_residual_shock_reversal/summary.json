@@ -1,0 +1,77 @@
+{
+  "experiment_id": "EXP-052",
+  "universe": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "SOLUSDT",
+    "XRPUSDT",
+    "BNBUSDT",
+    "DOGEUSDT",
+    "LINKUSDT",
+    "ADAUSDT"
+  ],
+  "parameters": {
+    "beta_window_hours": 168,
+    "shock_horizon_hours": 12,
+    "shock_threshold": 2.5,
+    "volume_z_threshold": 1.0,
+    "decision_interval_hours": 4,
+    "hold_hours": 12,
+    "max_active_alts": 4
+  },
+  "events": {
+    "event_count": 737,
+    "events_by_symbol": {
+      "ETHUSDT": 101,
+      "SOLUSDT": 87,
+      "XRPUSDT": 115,
+      "BNBUSDT": 111,
+      "DOGEUSDT": 120,
+      "LINKUSDT": 102,
+      "ADAUSDT": 101
+    },
+    "active_decision_share": 0.16620416253716552,
+    "mean_active_alts": 0.23012884043607532,
+    "max_active_alts": 4
+  },
+  "arms": {
+    "residual_reversal": {
+      "return_pct": -24.747250491530203,
+      "mdd_pct": -25.865526876563326,
+      "profit_factor": 0.7732881904524497,
+      "fold_returns_pct": {
+        "2024H2": -17.421668236492536,
+        "2025H1": -5.340940875102273,
+        "2025H2": -0.6893730525767472,
+        "2026H1": -3.659172762093721,
+        "2026H2_YTD": 0.6208517239315148
+      },
+      "fold_kills": 0,
+      "turnover": 197.8592205399584
+    },
+    "residual_continuation": {
+      "return_pct": 0.8444755711271235,
+      "mdd_pct": -19.417494494586386,
+      "profit_factor": 1.0062244139190735,
+      "fold_returns_pct": {
+        "2024H2": 14.407207359952533,
+        "2025H1": -2.1730492919175726,
+        "2025H2": -5.213619222292653,
+        "2026H1": -2.914695777030718,
+        "2026H2_YTD": -2.0869061426605606
+      },
+      "fold_kills": 0,
+      "turnover": 268.04909846649355
+    }
+  },
+  "checks": {
+    "positive_return_after_costs": false,
+    "positive_folds_at_least_3_of_5": false,
+    "profit_factor_at_least_1_20": false,
+    "mdd_not_worse_than_minus_25": false,
+    "no_terminal_kill": true,
+    "beats_continuation_by_10pp": false,
+    "go": false
+  },
+  "decision": "NO-GO"
+}

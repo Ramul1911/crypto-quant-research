@@ -1,0 +1,66 @@
+{
+  "experiment_id": "EXP-050",
+  "manifest_snapshot_date": "2025-08-10",
+  "window": {
+    "start": "2025-08-10 00:00:00",
+    "end": "2026-08-09 23:59:59"
+  },
+  "eligible_count": 37,
+  "portfolio_results": {
+    "all_equal_risk": {
+      "return_pct": -23.715301670244358,
+      "mdd_pct": -25.042773711974164,
+      "profit_factor": 0.4689448910817353,
+      "turnover": 54.21851851628493
+    },
+    "high_vol_quartile": {
+      "return_pct": -23.37418729767461,
+      "mdd_pct": -25.06654944443386,
+      "profit_factor": 0.5539193550481416,
+      "turnover": 54.10359783087592
+    },
+    "middle_vol": {
+      "return_pct": -24.273603851915894,
+      "mdd_pct": -26.089954362920665,
+      "profit_factor": 0.34542299233315205,
+      "turnover": 43.27540660698661
+    },
+    "low_vol_quartile": {
+      "return_pct": -20.441027621456133,
+      "mdd_pct": -24.674392962422264,
+      "profit_factor": 0.7741100050905998,
+      "turnover": 184.66260724467767
+    }
+  },
+  "volatility_return_spearman": 0.07467994310099572,
+  "top_volatility_quintile_symbols": [
+    "PENGUUSDT",
+    "ENAUSDT",
+    "HYPEUSDT",
+    "1000BONKUSDT",
+    "TAOUSDT",
+    "ONDOUSDT",
+    "NEARUSDT",
+    "1000PEPEUSDT"
+  ],
+  "top_volatility_quintile_median_return_pct": -21.306454638264704,
+  "bottom_volatility_quintile_symbols": [
+    "TRXUSDT",
+    "BTCUSDT",
+    "BNBUSDT",
+    "LTCUSDT",
+    "XRPUSDT",
+    "ETHUSDT",
+    "ETCUSDT",
+    "BCHUSDT"
+  ],
+  "bottom_volatility_quintile_median_return_pct": -20.057335550706128,
+  "hypothesis_checks": {
+    "high_return_beats_all": true,
+    "high_return_beats_low": false,
+    "high_mdd_within_5pp_of_low": true,
+    "spearman_at_least_0_25": false,
+    "top_vol_quintile_median_return_beats_bottom": false,
+    "supported": false
+  }
+}

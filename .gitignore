@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.env
+*.env
+*.pt
+*.pth
+*.sqlite
+*.sqlite3
+*.parquet
+data/
+models/*/
+runtime/
+SERVER_COMMANDS.md
